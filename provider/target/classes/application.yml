@@ -1,0 +1,13 @@
+server:
+  port: 32002
+spring:
+  application:
+    name: provider
+eureka:
+  instance:
+    hostname: server1
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:32001/eureka/
+    fetch-registry: true
+    register-with-eureka: true

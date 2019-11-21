@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/yushangyubeicheng/test.git
+          search-paths: respo
+          username: yushangyubeicheng
+          password: 15227root
+#    不能修改
+server:
+  port: 8888

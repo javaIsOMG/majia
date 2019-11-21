@@ -1,6 +1,10 @@
 spring:
   application:
     name: config
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
   cloud:
     config:
       label: master
@@ -13,3 +17,6 @@ spring:
 #    不能修改
 server:
   port: 8888
+eureka:
+  client:
+    service-url: http://server1:32001/eureka

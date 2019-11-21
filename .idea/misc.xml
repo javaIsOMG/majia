@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
       </list>
     </option>
   </component>

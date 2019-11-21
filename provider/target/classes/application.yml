@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: provider
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 eureka:
   instance:
     hostname: server1

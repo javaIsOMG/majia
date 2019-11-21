@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/yushangyubeicheng/test.git
+          uri: https://github.com/yushangyubeicheng/majia
           search-paths: respo
           username: yushangyubeicheng
           password: 15227root
@@ -19,4 +19,5 @@ server:
   port: 8888
 eureka:
   client:
-    service-url: http://server1:32001/eureka
+    service-url:
+       defaultZone: http://server1:32001/eureka/

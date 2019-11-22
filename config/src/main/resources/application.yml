@@ -4,7 +4,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8084
+        url: http://${ip}:8084
   cloud:
     config:
       label: master
@@ -20,4 +20,13 @@ server:
 eureka:
   client:
     service-url:
-       defaultZone: http://server1:32001/eureka/
+       defaultZone: http://${ip}:32001/eureka/
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+ip: 104.75.48.0

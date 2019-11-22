@@ -1,23 +1,30 @@
 spring:
-  application:
-    name: zuul
-  boot:
-    admin:
-      client:
-        url: http://localhost:8084
-  zipkin:
-    base-url: http://localhost:9411
-server:
-  port: 32003
-eureka:
-  client:
-    service-url:
-      defaultZone: http://server1:32001/eureka/
-zuul:
-  routes:
-    api-a:
-      path: /api/a/**
-      serviceId: provider
-    api-b:
-      path: /api/b/**
-      serviceId: provider
+  cloud:
+    config:
+      profile: dev
+      name: zuul
+      uri: http://localhost:8888
+      label: master
+#spring:
+#  application:
+#    name: zuul
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8084
+#  zipkin:
+#    base-url: http://localhost:9411
+#server:
+#  port: 32003
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://server1:32001/eureka/
+#zuul:
+#  routes:
+#    api-a:
+#      path: /api/a/**
+#      serviceId: provider
+#    api-b:
+#      path: /api/b/**
+#      serviceId: provider

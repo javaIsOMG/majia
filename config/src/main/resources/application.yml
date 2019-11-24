@@ -30,3 +30,6 @@ management:
       exposure:
         include: health,info
 ip: localhost
+health:
+  config:
+    enabled: false

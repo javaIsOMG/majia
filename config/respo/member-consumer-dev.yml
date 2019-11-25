@@ -11,6 +11,13 @@ spring:
 feign:
   hystrix:
     enabled: true
+hystrix:
+  command:
+    default:
+      fallback:
+        isolation:
+          semaphore:
+            maxConcurrentRequests: 50
 server:
   port: 30002
 management:

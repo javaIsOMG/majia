@@ -10,7 +10,7 @@ spring:
     #  encoding: utf-8
 feign:
   hystrix:
-    enable: true
+    enabled: true
 server:
   port: 30002
 management:

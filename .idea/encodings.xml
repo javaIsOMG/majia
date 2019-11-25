@@ -5,8 +5,8 @@
     <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/member-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/member-provider" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul" charset="UTF-8" />
   </component>

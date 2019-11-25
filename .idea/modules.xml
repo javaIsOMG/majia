@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka/itoken-eureka.iml" filepath="$PROJECT_DIR$/eureka/itoken-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/majia.iml" filepath="$PROJECT_DIR$/.idea/majia.iml" />
       <module fileurl="file://$PROJECT_DIR$/member-provider/member-Provider.iml" filepath="$PROJECT_DIR$/member-provider/member-Provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-consumer/member-consummer.iml" filepath="$PROJECT_DIR$/member-consumer/member-consummer.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/zipkin/zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>

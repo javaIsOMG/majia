@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: config
+  boot:
+    admin:
+      client:
+        url: http://${ip}:8084
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/yushangyubeicheng/majia.git
+          search-paths: config/respo
+          username: yushangyubeicheng
+          password: 15227root
+#    不能修改
+server:
+  port: 8888
+eureka:
+  client:
+    service-url:
+       defaultZone: http://${ip}:32001/eureka/
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+ip: localhost
+health:
+  config:
+    enabled: false

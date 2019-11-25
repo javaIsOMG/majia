@@ -8,6 +8,9 @@ spring:
       check-template: true
       check-template-location: true
       encoding: utf-8
+feign:
+  hystrix:
+    enable: true
 server:
   port: 30002
 management:

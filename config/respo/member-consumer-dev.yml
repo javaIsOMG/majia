@@ -3,11 +3,11 @@ spring:
     name: member-provider
   zipkin:
     base-url: http://localhost:9411
-  thymeleaf:
-      cache: false
-      check-template: true
-      check-template-location: true
-      encoding: utf-8
+#  thymeleaf:
+ #     cache: false
+  #    check-template: true
+   #   check-template-location: true
+    #  encoding: utf-8
 feign:
   hystrix:
     enable: true

@@ -10,7 +10,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/yushangyubeicheng/majia
+          uri: https://github.com/yushangyubeicheng/majia.git
           search-paths: config/respo
           username: yushangyubeicheng
           password: 15227root

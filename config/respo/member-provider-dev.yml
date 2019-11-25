@@ -8,6 +8,8 @@ spring:
       password: 612726
       driver-class-name: com.mysql.cj.jdbc.Driver
       url:  jdbc:mysql://139.155.31.185:3306/member?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
 server:
   port: 30001
 management:
